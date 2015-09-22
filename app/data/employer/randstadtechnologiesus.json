@@ -1,0 +1,16 @@
+{
+    "id": "randstadtechnologiesus",
+    "startDate": "November 2013",
+    "endDate": "August 2014",
+    "isCurrent": false,
+    "company": "Randstad Technologies US",
+    "city": "Redwood City",
+    "state": "CA",
+    "jobTitle": "Contractor - CSS Engineer",
+    "descriptions": [{"callout": "", "text": "On contract with BroadVision, Inc."}],
+    "tags": ["front-end","ui-ux","javascript","product"],
+    "displaySkill": false,
+    "requiredSkills": ["Backbone","Handlebars","jQuery","Javascript","HTML","CSS","RESTful Web Services","SVN"],
+    "sites": [],
+    "pageBreak": false
+}

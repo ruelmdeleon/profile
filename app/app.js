@@ -1,12 +1,26 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
-  'ngRoute',
-  'myApp.view1',
-  'myApp.view2',
-  'myApp.version'
-]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/view1'});
+angular.module('profileApp', [
+    'ngRoute',
+    'profileApp.version'
+])
+.config(['$routeProvider',
+    function($routeProvider) {
+        $routeProvider
+            .when('/work', {
+                templateUrl: 'templates/pages/workhistory/index.html',
+                controller: 'WorkIndexController',
+                controllerAs: 'workIndexCtrl'
+            })
+            .when('/company/:id', {
+                templateUrl: 'templates/pages/company/profile.html',
+                controller: 'CompanyViewController',
+                controllerAs: 'companyViewCtrl'
+            })
+            .otherwise({
+                templateUrl: 'templates/pages/workhistory/index.html',
+                controller: 'WorkIndexController',
+                controllerAs: 'workIndexCtrl'
+            });
 }]);

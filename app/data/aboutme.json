@@ -1,0 +1,44 @@
+[{
+  "name": "Front-End",
+  "isHighlight": true
+},{
+  "name": "Full-Stack",
+  "isHighlight": true
+},{
+  "name": "UI/UX",
+  "isHighlight": true
+},{
+  "name": "Product/Market Fit",
+  "isHighlight": true
+},{
+  "name": "HTML, CSS",
+  "years": 10
+},{
+  "name": "Flex",
+  "years": 5
+},{
+  "name": "MS SQL Server",
+  "years": 8
+},{
+  "name": "ColdFusion",
+  "years": 8
+},{
+  "name": "Backbone",
+  "years": 2,
+  "yearsLabel": "Last 2 Years"
+},{
+  "name": "Javascript",
+  "years": 10
+},{
+  "name": "Angular",
+  "isLearning": true
+},{
+  "name": "Ionic",
+  "isLearning": true
+},{
+  "name": "Sass",
+  "isLearning": true
+},{
+  "name": "Parse",
+  "isLearning": true
+}]

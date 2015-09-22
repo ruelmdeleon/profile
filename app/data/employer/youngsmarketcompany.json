@@ -1,0 +1,30 @@
+{
+    "id": "youngsmarketcompany",
+    "startDate": "October 2011",
+    "endDate": "September 2013",
+    "isCurrent": false,
+    "company": "Young's Market Company",
+    "city": "Union City",
+    "state": "CA",
+    "jobTitle": "Webmaster",
+    "descriptions": [{
+            "callout": "",
+            "text": "Responsible for public-facing web sites, extranets, and internal-facing sites for the corporate and subsidiaries. Designed, developed, and maintained business applications while working closely with stakeholders to define requirements. Saw the projects through to completion, end-to-end. Projects had a wide range, and included non-profit work."
+        }, {
+            "callout": "NatWeb - National Accounts",
+            "text": "The national accounts application, delivered through the Intranet, provided leadership the ability to track supplier mandates through customer endpoints. Account Managers were able to enter campaigns and track overall dollars, volume, and sales. This enabled better brand-performance, and gave in-sight into how best to increase market penetration for existing brands, and where to best break-in new product lines."
+        }, {
+            "callout": "Sales Quota",
+            "text": "A web application for goal creation and tracking. Reports rolled-up from the sales level to the CEO, and was used to track sales performance, brand performance, and helped leadership make decisions on how to deliver for our suppliers. Reports were delivered in a variety of intervals and time-frames to provide real-time targets, and performance time-comparisons."
+        }],
+    "tags": ["front-end","ui-ux","javascript","product","server","database"],
+    "displaySkill": true,
+    "requiredSkills": ["ActionScript","Adobe Flex","MXML","ColdFusion","ColdFusion Components","Remote Object Calls","MS SQL Server","Stored Procedures","SQL Agents","SQL Server Reporting Services (SSRS)",".Net C#","HTML","CSS","JavaScript","jQuery","SharePoint Branding","Adobe PhotoShop"],
+    "sites": [
+        {"name": "Young's Market Company", "link": "http://www.youngsmarket.com"},
+        {"name": "Young's Market Company Extranet", "link": "http://intranet.youngsmarket.com/youngsmarket"},
+        {"name": "Wilson Daniels", "link": "https://www.wilsondaniels.com"},
+        {"name": "Wilson Daniels Extranet", "link": "http://intranet.youngsmarket.com/wilsondaniels"},
+        {"name": "Infinium Spirits", "link": "http://www.infiniumspirits.com"}],
+    "pageBreak": true
+}

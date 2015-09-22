@@ -1,0 +1,22 @@
+{
+    "id": "kolbecorporation",
+    "startDate": "August 2006",
+    "endDate": "May 2007",
+    "isCurrent": false,
+    "company": "Kolbe Corporation",
+    "city": "Phoenix",
+    "state": "AZ",
+    "jobTitle": "Web Developer",
+    "descriptions": [
+        {"callout": "", "text": "Fascinating product utilized by educators and team-builders alike, I worked on the public-facing consumer web site along with the B2B applications, often used in coaching and team-building to help build better organizations. My work included delivering the reports and finished products in an easily consumable and intuitive manner."},
+        {"callout": "", "text": "Through the product, I was able to learn about how I operate, and how I can best approach and solve problems; an invaluable asset in my line of work."}],
+    "tags": ["front-end","ui-ux","javascript","product","server","database"],
+    "displaySkill": true,
+    "requiredSkills": ["ColdFusion","ColdFusion Components","BlueDragon","Fusebox","Remote Object Calls","MS SQL Server","HTML","CSS","JavaScript","Windows","Linux"],
+    "sites": [
+        {"name": "Kolbe Corporation", "link": "http://www.kolbe.com"},
+        {"name": "WareWithal", "link": "http://www.warewithal.com"},
+        {"name": "Center for Conative Abilities", "link": "http://www.centerforconativeabilities.org"},
+        {"name": "AZ Panda", "link": "http://www.azpanda.org"}],
+    "pageBreak": false
+}

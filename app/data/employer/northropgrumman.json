@@ -1,0 +1,16 @@
+{
+    "id": "northropgrumman",
+    "startDate": "September 2010",
+    "endDate": "February 2011",
+    "isCurrent": false,
+    "company": "Northrop Grumman",
+    "city": "San Mateo",
+    "state": "CA",
+    "jobTitle": "Contractor",
+    "descriptions": [{"callout": "PostalOne!", "text": "Develop and maintain PostalOne! application (flagship revenue product)  for the United States Postal Service in ColdFusion 8, 9 with some Java development, and Oracle backend."}],
+    "tags": ["front-end","ui-ux","javascript","server","database"],
+    "displaySkill": true,
+    "requiredSkills": ["ColdFusion","ColdFusion Components","Oracle","HTML","CSS","JavaScript"],
+    "sites": [],
+    "pageBreak": false
+}

@@ -1,0 +1,16 @@
+{
+    "id": "allianceanalytical",
+    "startDate": "July 2009",
+    "endDate": "September 2010",
+    "isCurrent": false,
+    "company": "Alliance Analytical, Inc.",
+    "city": "Menlo Park",
+    "state": "CA",
+    "jobTitle": "Software Architect, Custom ERP",
+    "descriptions": [{"callout": "Evolve", "text": "Tasked to learn Flex and take ownership of a custom ERP, I carried on a departing founder's work of realizing the CEO's vision. From CRM to CMS to dashboarding, the ERP is essential to the day-to-day and long-term health of the organization. In addition, the software provides content and inventory to our public-facing e-Commerce web site, and provides lead generation."}],
+    "tags": ["front-end","ui-ux","javascript","product","server","database"],
+    "displaySkill": true,
+    "requiredSkills": ["ActionScript","Adobe Flex","MXML","ColdFusion","ColdFusion Components","Remote Object Calls","MS SQL Server","Stored Procedures","SQL Agents","SQL Server Reporting Services","HTML","CSS","JavaScript","jQuery"],
+    "sites": [],
+    "pageBreak": true
+}

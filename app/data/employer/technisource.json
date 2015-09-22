@@ -1,0 +1,16 @@
+{
+    "id": "technisource",
+    "startDate": "May 2007",
+    "endDate": "June 2007",
+    "isCurrent": false,
+    "company": "Technisource",
+    "city": "Phoenix",
+    "state": "AZ",
+    "jobTitle": "Contractor - ColdFusion Developer",
+    "descriptions": [{"callout": "", "text": "On contract with the Arizona Hospital and Healthcare Association"}],
+    "tags": ["front-end","ui-ux","javascript","product","server","database"],
+    "displaySkill": false,
+    "requiredSkills": ["ActionScript","Adobe Flex","MXML","ColdFusion","ColdFusion Components","Remote Object Calls","MS SQL Server","Stored Procedures","SQL Agents","SQL Server Reporting Services",".Net C#","HTML","CSS","JavaScript","jQuery","Adobe Photoshop"],
+    "sites": [],
+    "pageBreak": true
+}

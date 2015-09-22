@@ -1,0 +1,26 @@
+<div class="row-fluid {{job.tags}}" ng-repeat="job in workIndexCtrl.jobs">
+    <div class="span2 chron">
+        <div>{{job.startDate + ' - ' + (job.endDate !== "" ? job.endDate : 'Present')}}</div>
+    </div>
+    <span class="span10">
+        <div class="company">
+            <span class="company-name">{{job.company}}</span>
+            <span class="company-city">{{job.city + ', ' + job.state}}</span>
+            <h2>{{job.jobTitle}}</h2>
+            <div class="row-fluid">
+                <span class="span9">
+                    <p ng-repeat="description in job.descriptions">
+                        <span class="call-out" ng-show="description.callout">{{description.callout}}</span>
+                        {{description.text}}
+                    </p>
+                </span>
+                <span class="span3 sites">
+                    <a ng-href="{{site.link}}" target="_blank" ng-repeat="site in job.sites">{{site.name}}</a>
+                </span>
+            </div>
+            <ul class="skills-required">
+                <li ng-repeat="skill in job.requiredSkills">{{skill}}</li>
+            </ul>
+        </div>
+    </span>
+</div>

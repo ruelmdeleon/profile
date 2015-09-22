@@ -1,0 +1,30 @@
+{
+    "id": "arizonahospitalandhealthcareassociation",
+    "startDate": "June 2007",
+    "endDate": "April 2009",
+    "isCurrent": false,
+    "company": "Arizona Hospital and Healthcare Association",
+    "city": "Arizona",
+    "state": "AZ",
+    "jobTitle": "Senior Web Developer",
+    "descriptions": [{
+        "callout": "",
+        "text": "Supporting internal and external clients through IT services, primarily as a web application developer. I managed and maintained our web presence functioning as the web master and developer. For new branding initiatives, I was able to provide my input in a design role. Acted as the technical liaison for outsourced development, and was involved in all steps of the SDLC, ensuring an efficient and manageable handoff. In addition to developing new functionality for our two flagship revenue-generating software products, I completed a redesign focusing on usability and efficiency, incorporating our branding to deliver an appealing, attractive web-based application."
+    }, {
+        "callout": "The Registry",
+        "text": "The Registry and Health Jobs code-based was used to spin-up various instances, allowing us to re-license the software through an easy, intuitive configuration process."
+    }],
+    "tags": ["front-end","ui-ux","javascript","product","server","database"],
+    "displaySkill": true,
+    "requiredSkills": ["ActionScript","Adobe Flex","MXML","ColdFusion","ColdFusion Components","Remote Object Calls","MS SQL Server","Stored Procedures","SQL Agents","SQL Server Reporting Services",".Net C#","HTML","CSS","JavaScript","jQuery","Adobe Photoshop"],
+    "sites": [
+        {"name": "AzHHA", "link": "http://www.azhha.org"},
+        {"name": "AzHHA Registry", "link": "http://www.azhharegistry.com"},
+        {"name": "AZ Health Jobs", "link": "https://www.azhealthjobs.com"},
+        {"name": "The Med Form", "link": "http://www.themedform.com"},
+        {"name": "www.azhcwf.org", "link": "http://www.azhcwf.org"},
+        {"name": "AZ Caring Careers", "link": "http://www.azcaringcareers.com"},
+        {"name": "Content Management System", "link": "http://acc.azhha.org/admin"},
+        {"name": "AzHHA Intranet", "link": "http://intranet.azhha.org"}],
+    "pageBreak": false
+}

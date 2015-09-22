@@ -1,0 +1,19 @@
+{
+    "id": "broadvision",
+    "startDate": "August 2014",
+    "endDate": "",
+    "isCurrent": true,
+    "company": "BroadVision, Inc.",
+    "city": "Redwood City",
+    "state": "CA",
+    "jobTitle": "Front-end Engineer",
+    "descriptions": [{
+        "callout": "",
+        "text": "Responsible for delivering a rock-solid user-experience across all web platforms. The Vmoso product-line brings a unified communication and collaboration platform to the enterprise. The role requires coordination among the various client teams to sync deliverables, along with collaborating with the server team to ensure the proper APIs are created to fulfill the vision of delivering a uniform experience across all devices."
+    }],
+    "tags": ["front-end","ui-ux","javascript","product"],
+    "displaySkill": true,
+    "requiredSkills": ["Backbone","Handlebars","jQuery","Javascript","HTML","CSS","RESTful Web Services","SVN"],
+    "sites": [],
+    "pageBreak": false
+}

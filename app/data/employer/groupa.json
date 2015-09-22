@@ -1,0 +1,16 @@
+{
+    "id": "groupa",
+    "startDate": "February 2011",
+    "endDate": "October 2011",
+    "isCurrent": false,
+    "company": "Group A",
+    "city": "Union City",
+    "state": "CA",
+    "jobTitle": "Contractor - Flex Developer",
+    "descriptions": [{"callout": "", "text": "On contract with Young's Market Company"}],
+    "tags": ["front-end","ui-ux","javascript","product","server","database"],
+    "displaySkill": false,
+    "requiredSkills": ["ActionScript","Adobe Flex","MXML","ColdFusion","ColdFusion Components","Remote Object Calls","MS SQL Server","Stored Procedures","SQL Agents","SQL Server Reporting Services (SSRS)",".Net C#","HTML","CSS","JavaScript","jQuery","SharePoint Branding","Adobe PhotoShop"],
+    "sites": [],
+    "pageBreak": false
+}

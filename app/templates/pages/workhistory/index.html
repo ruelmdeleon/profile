@@ -1,0 +1,28 @@
+<!-- work history --->
+<!-- begin job --->
+<div class="row-fluid {{job.tags}}" ng-controller="WorkIndexController"
+    ng-repeat="job in jobs"
+    ng-click="showCompany(job.id)">
+    <!-- dates -->
+    <div class="span2 chron">
+        <div>{{job.startDate + ' - ' + (job.endDate !== "" ? job.endDate : 'Present')}}</div>
+    </div>
+    <span class="span10">
+        <!-- company info -->
+        <div class="company">
+            <span class="company-name">{{job.company}}</span>
+            <span class="company-city">{{job.city + ', ' + job.state}}</span>
+            <!-- position info -->
+            <h2>{{job.jobTitle}}</h2>
+            <p ng-repeat="description in job.descriptions">
+                <!-- special project callouts -->
+                <span class="call-out" ng-show="description.callout">{{description.callout}}</span>
+                {{description.text}}
+            </p>
+            <!-- skills required -->
+            <ul class="skills-required">
+                <li ng-repeat="skill in job.requiredSkills">{{skill}}</li>
+            </ul>
+        </div>
+    </span>
+</div>

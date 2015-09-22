@@ -1,0 +1,204 @@
+body {
+  min-height: 100%;
+}
+body.noscroll {
+  overflow: hidden;
+}
+#wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  top:0;
+  left:0;
+  z-index: 100000;
+  display: flex;
+  vertical-align: middle;
+}
+#welcome-strap {
+  align-self: center;
+  width: 100%;
+  text-align: right;
+  font-size: 2.5em;
+  color: white;
+}
+/* blinking cursor */
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 2em;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+/*/cursor*/
+
+/* work experience */
+/* chrome */
+.work-experience > .row-fluid {
+  border-left: solid 1px grey;
+}
+.work-experience .work {
+  display: none;
+  position: relative;
+  top: 100px;
+}
+.chron {
+  border-bottom: solid 1px grey;
+  height: 100%;
+}
+
+.company {
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+.company h2 {
+  font-size: 1.1em;
+  margin-top: .1em;
+  line-height: 20px;
+}
+.company > span {
+  font-size: .8em;
+  font-style: italic;
+}
+.chron > div {
+  font-size: .8em;
+  margin-left: .4rem;
+}
+.company-city {
+  float: right;
+}
+.work-experience .company .call-out {
+  font-weight: bold;
+  font-style: italic;
+  margin-right: .5rem;
+}
+.skills-required {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top:.3rem;
+}
+.skills-required li {
+  margin: .1rem;
+  padding: .2em;
+  background-color: #006BB6;
+  color: #FDB927;
+  border-radius: 3px;
+  display:inline-block;
+}
+/*nav*/
+.sites a, .sites a:visited {
+  display: block;
+  text-decoration: none;
+}
+.nav-list input {
+  width:100%;
+}
+.nav-list .skill {
+  font-size: .75rem;
+}
+.school-program {
+  text-transform: uppercase;
+}
+.school-name, .school-location {
+  font-size:.8em;
+}
+.school-location {
+  color: #26282A;
+}
+.nav-list.misc {
+    margin-top: 1rem;
+}
+@media print {
+    .nav.nav-list > ul > li {
+      display: inline;
+    }
+    .contact-info {
+      float: right;
+    }
+    .contact-info > li {
+      list-style: none;
+    }
+    .web-site { display: block; }
+    .nav.nav-list > ul > li:after, .skills-required > li:after {
+      content: ", ";
+    }
+    .nav.nav-list > ul > li:last-child:after, .skills-required > li:last-child:after {
+      content: "";
+    }
+    .school-program {
+      text-transform: initial;
+    }
+    .work-experience > .row-fluid {
+      border-left: none;
+    }
+    .chron {
+      border-bottom: solid 1px grey;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+    .skills-required:before {
+      content: "Skills:";
+      font-weight: bold;
+      margin-right: 4px;
+    }
+    .skills-required, .skills-required li {
+      margin: 0;
+      padding: 0;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+    .sites {
+      margin-bottom: 7px;
+    }
+}

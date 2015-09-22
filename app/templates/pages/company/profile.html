@@ -1,0 +1,25 @@
+<!-- company profile -->
+<div class="row-fluid {{company.tags}}">
+    <!-- dates -->
+    <div class="span2 chron">{{companyViewCtrl.tags}}
+        <div>{{company.startDate + ' - ' + (company.endDate !== "" ? company.endDate : 'Present')}}</div>
+    </div>
+    <span class="span10">
+        <!-- company info -->
+        <div class="company">
+            <span class="company-name">{{company.company}}</span>
+            <span class="company-city">{{company.city + ', ' + company.state}}</span>
+            <!-- position info -->
+            <h2>{{company.jobTitle}}</h2>
+            <p ng-repeat="description in company.descriptions">
+                <!-- special project callouts -->
+                <span class="call-out" ng-show="description.callout">{{description.callout}}</span>
+                {{description.text}}
+            </p>
+            <!-- skills required -->
+            <ul class="skills-required">
+                <li ng-repeat="skill in company.requiredSkills">{{skill}}</li>
+            </ul>
+        </div>
+    </span>
+</div>

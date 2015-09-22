@@ -1,0 +1,16 @@
+{
+    "id": "firstbank",
+    "startDate": "July 2005",
+    "endDate": "July 2006",
+    "isCurrent": false,
+    "company": "First Bank",
+    "city": "Ketchikan",
+    "state": "AK",
+    "jobTitle": "Programmer",
+    "descriptions": [{"callout": "", "text": "From providing customer service, tech support, and help desk duties, my first programming role was to develop and maintain the corporate Intranet, in ColdFusion. Although it was a language I had only just heard of, I dove in, and rebuilt the Intranet from scratch, with a dynamic content-management system that allowed for quick scaling for new departments, and for admin to build out schedules, share documents, and provide announcements. A fan favorite was a photo-sharing module created that helped engage our various remote locations, and fostered a sense of community and camaraderie among the employees."}],
+    "tags": ["front-end","ui-ux","javascript","server","database"],
+    "displaySkill": true,
+    "requiredSkills": ["ColdFusion","MS Access","HTML","CSS","JavaScript","Visual Basic 6.0","Help Desk","Tech Support","Customer Service"],
+    "sites": [],
+    "pageBreak": false
+}
