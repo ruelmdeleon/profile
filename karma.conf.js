@@ -8,7 +8,14 @@ module.exports = function(config){
       'app/bower_components/angular-route/angular-route.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
       'app/components/**/*.js',
-      'app/test/**/*.js'
+      'app/app.js',
+      'app/js/controllers/**/*.js',
+      'app/test/unit/**/*.js',
+      'app/js/vendor/jquery*.js'
+    ],
+
+    exclude: [
+        'app/js/controllers/obsolete/**/*.js'
     ],
 
     autoWatch : true,
@@ -23,6 +30,7 @@ module.exports = function(config){
             'karma-jasmine',
             'karma-junit-reporter'
             ],
+    //logLevel: config.LOG_DEBUG,
 
     junitReporter : {
       outputFile: 'test_out/unit.xml',

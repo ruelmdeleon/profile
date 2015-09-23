@@ -79,37 +79,13 @@
         <div class="row-fluid">
             <div class="span3">
                 <div class="well sidebar-nav" ng-controller="WorkIndexController">
-
-                    <ul class="nav nav-list hidden-print">
-                        <li class="nav-header">Where I Shine</li>
-                        <li ng-repeat="skill in highlights"><a href="#">{{skill.name}}</a></li>
-
-                        <li class="nav-header">What I know (in years)</li>
-                        <li class="skill" ng-repeat="skill in years">
-                            <div class="row-fluid">
-                                <div class="span5"><a href="#">{{skill.name}}</a></div>
-                                <div class="span7">
-                                    <input type="range" value="{{skill.years}}" data-toggle="tooltip"
-                                        title="{{skill.yearsLabel ? skill.yearsLabel : skill.years + ' Years'}}">
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="nav-header">What I am Learning</li>
-                        <li ng-repeat="skill in learning"><a href="#">{{skill.name}}</a></li>
-
-                        <li class="nav-header">Education</li>
-                        <li ng-repeat="school in education">
-                            <a ng-href="{{school.link ? school.link : '#'}}" class="school-program" target="_blank">{{school.program}}</a>
-                            <a href="#" class="school-name" ng-show="school.name">{{school.name}}</a>
-                            <a href="#" class="school-location" ng-show="school.location">{{school.location + ' - ' + school.year}}</a>
-                        </li>
-                    </ul>
-
-                    <ul class="nav nav-list hidden-print misc" ng-repeat="list in lists">
-                        <li class="nav-header">{{list.name}}</li>
-                        <li ng-repeat="item in list.items"><a href="#">{{item}}</a></li>
-                    </ul>
+                    <ul class="nav nav-list hidden-print"
+                        ng-include="template"
+                        ng-controller="SkillIndexController"></ul>
+                    <ul class="nav nav-list hidden-print misc"
+                        ng-include="template"
+                        ng-controller="EducationIndexController"></ul>
+                    <div ng-include="template" ng-controller="MiscIndexController"></div>
                 </div><!--/.well -->
             </div><!--/span-->
             <!-- main content area -->
@@ -144,10 +120,6 @@
   <script>
   $(document).ready(function(){
     var timeout_baseline = 150;
-
-    var range_sliders = $('input[type=range]');
-    range_sliders.prop('max',10).tooltip();
-
     var autotype = [['R',.2],['U',.4],['E',.1],['L',.1],[' ',.1],['D',.3],['E',.2],['L',.1],['E',.15],['O',.15],['N',.45]];
 
     var typeout = function(callback) {
@@ -195,6 +167,9 @@
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
   <script src="js/controllers/workhistory/index-controller.js"></script>
+  <script src="js/controllers/workhistory/skill-index-controller.js"></script>
+  <script src="js/controllers/workhistory/education-index-controller.js"></script>
+  <script src="js/controllers/workhistory/misc-index-controller.js"></script>
   <script src="js/controllers/company/view-controller.js"></script>
 </body>
 </html>
