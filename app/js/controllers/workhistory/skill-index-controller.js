@@ -1,6 +1,7 @@
 angular.module('profileApp')
-    .controller('SkillIndexController', ['$scope', '$http',
-        function($scope, $http) {
+    .controller('SkillIndexController', ['$scope', '$http', '$element',
+        function($scope, $http, $element) {
+            $scope.template = "templates/pages/profile/skill_highlights.html";
             $http.get('data/skill_list.json')
                 .success(function(data) {
                     //Where I Shine

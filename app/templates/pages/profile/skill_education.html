@@ -1,0 +1,6 @@
+<li class="nav-header">Education</li>
+<li ng-repeat="school in education">
+    <a ng-href="{{school.link ? school.link : '#'}}" class="school-program" target="_blank">{{school.program}}</a>
+    <a href="#" class="school-name" ng-show="school.name">{{school.name}}</a>
+    <a href="#" class="school-location" ng-show="school.location">{{school.location + ' - ' + school.year}}</a>
+</li>

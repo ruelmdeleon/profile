@@ -1,0 +1,15 @@
+<li class="nav-header">Where I Shine</li>
+<li ng-repeat="skill in highlights"><a href="#">{{skill.name}}</a></li>
+<li class="nav-header">What I know (in years)</li>
+<li class="skill" ng-repeat="skill in years">
+    <div class="row-fluid">
+        <div class="span5"><a href="#">{{skill.name}}</a></div>
+        <div class="span7">
+            <input type="range" value="{{skill.years}}" max="10" data-toggle="tooltip"
+                title="{{skill.yearsLabel ? skill.yearsLabel : skill.years + ' Years'}}">
+        </div>
+    </div>
+</li>
+
+<li class="nav-header">What I am Learning</li>
+<li ng-repeat="skill in learning"><a href="#">{{skill.name}}</a></li>
